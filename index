@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
-  <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรไฟล์นักศึกษา</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- ใช้ Google Fonts สำหรับฟอนต์ที่สวยงาม -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello jesus</h1>
-  <p>My first paragraph.</p>
+    <div class="profile-container">
+        <div class="profile-picture">
+            <img src="ยกนิ้ว.jpg" alt="รูปโปรไฟล์">
+        </div>
+        <div class="profile-details">
+            <h1>ธีร ริ้วทวี</h1>
+            <p><strong>รหัสนักศึกษา:</strong> 653450288-5</p>
+            <p><strong>อีเมล:</strong> teera.r@kkumail.com</p>
+            <p><strong>สาขาวิชา:</strong> วิทยาการคอมพิวเตอร์และสารสนเทศ</p>
+            <div class="profile-links">
+                <a href="https://github.com/Teera101/calculater01.git" target="_blank">oop</a>
+                <a href="https://github.com/Teera101/Teera101.github.io.git" target="_blank">frontEnd</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
