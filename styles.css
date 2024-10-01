@@ -1,0 +1,88 @@
+/* ตั้งค่าฟอนต์และพื้นหลังทั่วไป */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* คอนเทนเนอร์โปรไฟล์ */
+.profile-container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 30px;
+    max-width: 800px;
+    width: 90%;
+    align-items: center;
+}
+
+/* รูปโปรไฟล์ */
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4CAF50;
+}
+
+/* รายละเอียดโปรไฟล์ */
+.profile-details {
+    margin-left: 30px;
+}
+
+.profile-details h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.profile-details p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.profile-details strong {
+    color: #4CAF50;
+}
+
+/* ลิงค์ต่างๆ */
+.profile-links a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.profile-links a:hover {
+    background-color: #45a049;
+}
+
+/* การตอบสนองสำหรับหน้าจอเล็ก */
+@media (max-width: 600px) {
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-details {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .profile-links a {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
